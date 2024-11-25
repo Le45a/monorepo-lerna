@@ -1,10 +1,8 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useWorkspaces": true,
   "packages": [
     "packages/*"
-  ], //指定子包
-  "npmClient": "yarn", // 指定使用的包管理工具
-  // "version": "0.0.0",统一版本
-  "version": "independent" //子仓库版本独立
+  ],
+  "npmClient": "yarn",
+  "version": "independent"
 }
